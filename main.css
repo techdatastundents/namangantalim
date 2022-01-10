@@ -1,0 +1,43 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #EEEEEE;
+    padding: 10px 30px;
+}
+nav .admin{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    font-family: sans-serif;
+}
+nav .logo img{
+    width:140px;
+}
+.sidebar{
+    background-color: #EEEEEE;
+    display: flex;
+    width: 391px;
+    flex-direction: column;
+    padding: 30px;
+    gap: 30px;
+    height: 100vh;
+    top: 0px;
+    position: fixed;
+    z-index: -1;
+    justify-content: center;
+}
+.sidebar .btn-s{
+    background-color: #C4C4C4;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    font-size: 20px;
+    font-family: sans-serif;
+}
