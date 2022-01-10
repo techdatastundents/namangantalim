@@ -1,0 +1,2 @@
+# namangantalim
+Talim uchun 
